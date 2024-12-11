@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0px;
+            margin: 0px;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: darkgrey;
+            
+        }
+
+
+        div {
+            padding-bottom: 50px;
+        }
+
+      form  {   
+
+         
+            width: 300px;
+            height: 300px;
+            background-color: white;    
+            margin: auto;
+            border-radius: 20px;
+            padding:20px;
+        }
+
+        form > p > #iusu {
+
+            width: 300px;
+            height: 30px;
+            margin-top: 30px;
+        }
+
+        form > p > #isen {
+            width: 300px;
+            height: 30px;
+            border-color: white;
+            border: 0px;
+           
+        } 
+
+       div > form > h1 {
+            padding-left: 60px;
+        }
+    </style>
+</head>
+<body>
+    
+    <div>
+    <form action="Cadastro.php" method="post" autocomplete="on" >
+        
+        <h1>Cadastra-se</h1>
+        <p>
+            <label for="iusu"></label>
+            <input type="text" name="usu" id="iusu" required minlength="5" maxlength="20" autocomplete="username" placeholder="Nome do usuário">
+        </p>
+        <br>
+        <br>
+        <p>
+            <label for="isen"></label>
+            <input type="password" name="sen" id="isen" required minlength="8" maxlength="30" autocomplete="current-password" placeholder="Senha">
+        </p>
+
+        <p>
+            <input type="submit" value="Cadastrar">
+        </p>
+
+    </form>
+ </div>
+
+</body>
+</html>
