@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="estilos/style.css">
 </head>
 <body>
     <h1>Faça Login</h1>
@@ -12,20 +13,20 @@
             <div id="formulario">
 
                <form action="Cadastro.php" method="post" autocomplete="on">
-                    
+                 
                 <div class="campo">
-                    <input type="text" name="nome" id="inome">
-                    <label for="inome"></label>
+                    <input type="text" name="nome" id="inome" required maxlength="50" minlength="4" autocomplete="on" placeholder="Nome">
+                    <label for="inome">Nome</label>
                 </div>
 
                 <div class="campo">
-                    <input type="email" name="email" id="iemail">
-                    <label for="iemal"></label>
+                    <input type="email" name="email" id="iemail" required autocomplete="on" placeholder="E-mail">
+                    <label for="iemal">E-mail</label>
                 </div>
 
                 <div class="campo">
-                    <input type="password" name="senha" id="isenha">
-                    <label for="isenha"></label>
+                    <input type="password" name="senha" id="isenha" required placeholder="Senha" minlength="8" maxlength="30">
+                    <label for="isenha">Senha</label>
                 </div>
 
                 <input type="submit" value="Entrar">
