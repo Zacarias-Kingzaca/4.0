@@ -37,8 +37,8 @@ section#login {
 
     
     background-color: rgba(0, 0, 0, 0.479);
-    width: 270px;
-    height: 200px;
+    width: 250px;
+    height: 195px;
     border-radius:10px;
     box-shadow: 8px 0px 0px 8px solid
     black;
@@ -70,7 +70,7 @@ div.campo > input {
     background-color: rgba(240, 248, 255, 0.801);
     font-size: 1em;
     height: 100%;
-    width: 97%;
+    width: 96%;
     border: 0px;
     border-radius: 7px;
     padding: 5px;
