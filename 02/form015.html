@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de inscreição</title>
+    <link rel="stylesheet" href="estilos/style015.css">
+</head>
+<body>
+    
+    <div class="container">
+
+        <h2>Inscrever-se</h2>
+
+        <form action="Cadastro.php" method="post" autocomplete="on">
+            
+            <label for="nome"></label>
+            <input type="text" name="nome" id="nome" required maxlength="60" min="5" placeholder="Nome Completo">
+
+            <label for="senha"></label>
+            <input type="password" name="senha" id="Senha" required maxlength="20" min="8" placeholder="Senha">
+
+            <label for="Confirmar"></label>
+            <input type="password" name="Confirmar" id="Confirmar" required maxlength="20" minlength="8" placeholder="Confirmar Senha">
+
+            <label for="data-nasc"></label>
+            <input type="date" name="data-nasc" id="data-nasc" required  >
+
+           
+                <label for="Sexo-m">Masculino</label>
+                <input type="radio" name="Sexo" id="Sexo-m" checked required value="Masculino">
+    
+                <label for="Sexo-f" >Femínino</label>
+                <input type="radio" name="Sexo" id="Sexo-f" required value="Femínino">
+                <br>
+                <label for="aceitar">Aceito os termos de uso.</label>
+                <input type="checkbox" name="aceitar" id="aceitar" required>
+           
+            
+          
+
+            <button type="submit">
+                Enviar
+            </button>
+
+
+
+        </form>
+    </div>
+
+
+
+
+</body>
+</html>
