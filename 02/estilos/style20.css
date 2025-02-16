@@ -7,25 +7,3 @@
     padding: 0px;
     box-sizing: border-box;
 }
-
-:root {
-    --cor:rgb(8, 255, 8);
-}
-
-body {
-    background-color: black;
-    overflow: hidden;
-    font-family: monospace;
-    height: 100vh;
-    align-items: center;
-    display: flex;
-    justify-content: center;
-}
-
-h1{
-    color: lime;
-    text-align: center;
-    margin-top: -90px;  
-}
-
-
